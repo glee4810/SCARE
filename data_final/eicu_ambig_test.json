@@ -1,0 +1,506 @@
+[
+    {
+        "id": "69db80a0c0afc56b9fe3fcbd",
+        "question": "HDL?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "c191fdf4c92b141c171f9ade",
+        "question": "Antivirals?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "0024e69d70eec2ec71e8f1e9",
+        "question": "Blood pressure?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "6e774fd408d950025d41da68",
+        "question": "Flu shot?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "b1c18ac1d2a4ac4fe879c2f0",
+        "question": "Sodium?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "697fe51395f093e09d09c9a8",
+        "question": "Triglycerides?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "c6a8d11290e6b6ce1a11f3ea",
+        "question": "RBC count?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "5fad253d6db5b584cb763bbe",
+        "question": "Blood type?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "c943db280069e0b4d55471da",
+        "question": "Age?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "931153a51e9bbc213945d8ca",
+        "question": "Could you tell me the marital status of patient 10012853 on their first significant hospital visit?",
+        "query": "null",
+        "template": "significant",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "9875a55ec220bc8947bd8331",
+        "question": "What is the average duration of ICU stays longer than usual for patients aged 60 or above?",
+        "query": "null",
+        "template": "longer than usual",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "7e565b111e0c602fe6a8cc2f",
+        "question": "List the top five most common microbiology tests with sufficient data in 2100.",
+        "query": "null",
+        "template": "sufficient",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "87123324e919c5fbcc532a8f",
+        "question": "How many hours have passed since patient 10004733 had the last notable pt lab test during their current visit?",
+        "query": "null",
+        "template": "notable",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "46a135ff1072143669b429e8",
+        "question": "What was the last ICU measurement of patient 10038933 that appeared significant?",
+        "query": "null",
+        "template": "significant",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "546cd1040aad5b4c455d0e7d",
+        "question": "How many days have passed since the recent major change in patient 10020187's SaO2 readings?",
+        "query": "null",
+        "template": "major",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "d92ea46a927478ab00458275",
+        "question": "How many times was albumin 25% prescribed for patient 10038081 in a typical hospital encounter?",
+        "query": "null",
+        "template": "typical",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "600dbfb06c6864c0eef17237",
+        "question": "How many patients have been admitted currently under high-priority situations?",
+        "query": "null",
+        "template": "high-priority",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "2f4a4e81c656245b4e0c9ed5",
+        "question": "What was the name of the medication prescribed to patient 10024043 at an unusually high dose?",
+        "query": "null",
+        "template": "unusually",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "1bd033586702295ec9e50581",
+        "question": "How many hospitalized patients are currently in a high-risk category?",
+        "query": "null",
+        "template": "high-risk",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "44d382cca00d12ffe607e092",
+        "question": "Reveal the four most frequently prescribed medications from these cases.",
+        "query": "null",
+        "template": "these",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "56dba6836cb091fe742f2798",
+        "question": "When did they last have their SaO2 measurement?",
+        "query": "null",
+        "template": "they",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "30e107f7e8e6540bee13a02d",
+        "question": "How many patients received the diagnosis of this condition since 2100?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "fda2777f511f88eaf30a9006",
+        "question": "Calculate the sum of patient 10004235's input since then.",
+        "query": "null",
+        "template": "then",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "401036556874227a2e7234f1",
+        "question": "What are the five most commonly diagnosed diagnoses for patients who had previously received parenteral infusion of concentrated nutritional substances within this time?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "bb5e14a1c68928b0fdba690a",
+        "question": "Count the number of patients who received other endoscopy of small intestine within 2 months after being diagnosed with this since 2100.",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "d54479b548b3912aaa9478dc",
+        "question": "Tell me the maximum volume for patient 10004235 in this stay.",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "bff41398436199534cef5972",
+        "question": "What was the cost of the test associated with that?",
+        "query": "null",
+        "template": "that",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "5fe89ffbc0e8b8946c37e5e9",
+        "question": "What is the name of the medication that was prescribed to patient 10007818 for this during their last hospital visit?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "8eaab098ec865a0dafcc745a",
+        "question": "Blood sugar?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "6d01b7e0e8629e2eea92d68e",
+        "question": "Heart rate?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "c11f0ab72a2837a8a8e7901d",
+        "question": "MRI?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "3493851ebdb61119903c2ea5",
+        "question": "Immunizations?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "c6dbc6f8b7111d23d2bcb225",
+        "question": "Cholesterol?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "8b8801621bc0e6363da6d234",
+        "question": "Cancer?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "325b5284ce6db7012d83e919",
+        "question": "Diagnosis?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "de5b09f0b497059d5a5e0c97",
+        "question": "Temperature?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "1d2ebc3df9d8aa2fa3ee6ab8",
+        "question": "Infection type?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "eicu"
+    },
+    {
+        "id": "e74f9bb229528ed67d5fe137",
+        "question": "Was acetaminophen, aspirin, or furosemide prescribed to patient 10012853 in their first notable hospital encounter?",
+        "query": "null",
+        "template": "notable",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "a58552783e470dbd4b89878a",
+        "question": "I would like to know the top four diagnoses that have a relatively high 3-month mortality rate.",
+        "query": "null",
+        "template": "relatively high",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "0e4348484e6b84e0f097a386",
+        "question": "How many patients were prescribed medications within a long duration of their hospital admission?",
+        "query": "null",
+        "template": "long",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "e87f48f6afe344cc53f12ca8",
+        "question": "Which microbiology tests were considered critical for patients diagnosed with noncompliance within 2 months?",
+        "query": "null",
+        "template": "critical",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "6225c12ee5884a6a02db38a8",
+        "question": "When was the first time that patient 10038999 was prescribed soln and lactulose under specific conditions since 04/2100?",
+        "query": "null",
+        "template": "specific",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "a3d187878b09bee827857c47",
+        "question": "Which were the top three diagnoses with more than usual follow-up visits within a month?",
+        "query": "null",
+        "template": "more than usual",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "7956d250e436bff14326b060",
+        "question": "When did patient 10023117 first receive an important treatment since 2100?",
+        "query": "null",
+        "template": "important",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "2c78c16774459e7156926c99",
+        "question": "What is the percentile of 186.0 of glucose in a lab test for patients of a comparable age to patient 10015931 in the last hospital visit?",
+        "query": "null",
+        "template": "comparable",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "542465440ced88b18b58168d",
+        "question": "What was the total amount of the output patient 10014078 had on 09/08/this year under unusual circumstances?",
+        "query": "null",
+        "template": "unusual",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "a3b4bf22754b9e2b040e68ef",
+        "question": "What percentile does a urea nitrogen value of 15.0 for patient 10001725 place for a typical patient today on the first hospital encounter?",
+        "query": "null",
+        "template": "typical",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "eicu"
+    },
+    {
+        "id": "774b5c40bb9abb1646e58a18",
+        "question": "Can you give me the three most common output events since then?",
+        "query": "null",
+        "template": "then",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "2a37116acf0f7f4f8bf7d66c",
+        "question": "How many patients in that year were diagnosed with hypertrophy (benign) of prostate with urinary obstruction and other lower urinary tract symptoms (luts)?",
+        "query": "null",
+        "template": "that",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "d7a958b38f08445fa677f157",
+        "question": "Calculate how many drugs they were prescribed in 04/last year.",
+        "query": "null",
+        "template": "they",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "a8860003648f63ec55573b56",
+        "question": "What is the treatment that patient 10007795 was given two or more times since this event?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "ab5db0fed6111ec1e62bb422",
+        "question": "What are the top five most common output events during this time?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "63b1435150b044c30761089d",
+        "question": "What was their marital status during the last hospital encounter?",
+        "query": "null",
+        "template": "their",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "c8447be53198b6bce5bd5bde",
+        "question": "Tell me their age during that hospital encounter.",
+        "query": "null",
+        "template": "their",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "6b1f341cce9cd74de5b4e2e4",
+        "question": "How many 5% dextrose prescriptions were administered to this patient?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    },
+    {
+        "id": "437aa37ab515617690d01232",
+        "question": "How many duloxetine prescriptions were there from them since 1 year ago?",
+        "query": "null",
+        "template": "them",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "eicu"
+    }
+]

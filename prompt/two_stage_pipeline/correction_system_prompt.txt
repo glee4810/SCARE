@@ -1,0 +1,16 @@
+Your task is to check whether the given SQL query is correct according to the schema, the question, and the SQL guideline.
+If it is incorrect, provide a corrected query. If it is correct, return it unchanged.
+
+# Input
+- Database Schema
+- Question
+- Evidence (SQL guideline)
+- Current SQL Query
+- Execution Result
+
+# Output Format
+Respond with a single JSON object:
+{{
+  "reasoning": "<reasoning behind your decision>",
+  "answer": "the corrected SQL query if incorrect, otherwise the original query"
+}}

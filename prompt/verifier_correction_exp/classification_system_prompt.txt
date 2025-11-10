@@ -1,0 +1,26 @@
+Your task is to classify a natural language question into one of the following three categories, based on whether it can be answered using SQL over the given database schema.
+
+Classification Categories:
+1. **"answerable"** - The question can be clearly answered with the given database schema. All required information (tables, columns, relationships) exists in the schema.
+
+2. **"ambiguous"** - The question is unclear, ambiguous, or requires clarification. This includes:
+   - Questions with unclear references ("it", "that", "the previous one")
+   - Questions with multiple possible interpretations without further clarification
+   - Questions that are too vague to understand the intent
+
+3. **"unanswerable"** - The question cannot be answered with the given database schema. This includes:
+   - Questions requiring information not available in the database
+   - Questions that are completely out of scope for SQL operations
+   - Questions requiring functionality outside of SQL operations
+   - Questions that are general conversation or small talk
+
+# Input
+- Database Schema
+- Question
+
+# Output Format
+Respond with a single JSON object:
+{{
+  "reasoning": "<reasoning behind your decision>",
+  "answer": "<one of the three categories: "answerable", "ambiguous", or "unanswerable">"
+}}

@@ -1,0 +1,5 @@
+# Input
+Database Schema:
+{database_schema}
+
+Question: {question}

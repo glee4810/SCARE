@@ -1,0 +1,713 @@
+[
+    {
+        "id": "abd08a1d4e39523e65cb751e",
+        "question": "Have you figured out the new charting system yet? It\u2019s so confusing!",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "d577d8c235f0ac2a18f83ca7",
+        "question": "Have you been to the meditation room on the first floor yet?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "a88e223c2d8e1ce456c73829",
+        "question": "Did you finally get those scrubs with the extra pockets?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "d376e23fdda36038394f3b43",
+        "question": "Did you hear they\u2019re adding new lockers in the staff lounge?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "2e3b2a65bf57a3b3a50e97e8",
+        "question": "Have you seen the new murals in the pediatrics wing?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "1147745257f867045d3bfff8",
+        "question": "Have you tried the new energy drink everyone\u2019s talking about?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "f5b70a4f1ed4518d9d66cbb4",
+        "question": "Do you know if the staff meeting was rescheduled?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "e54e00524c69e6bcff7f648c",
+        "question": "I can\u2019t believe how busy the ER is today. Is it always like this?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "48a2234995ece03e9aa8242d",
+        "question": "Are you covering the ER this weekend?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "67ad985eaa74b189845c914c",
+        "question": "Do you think the new uniforms are more comfortable or less?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "988c852f18110e6a68ee9e85",
+        "question": "What are the key features influencing mortality rates within 3 months of diagnosis based on historical data?",
+        "query": "null",
+        "template": "feature_importance_analysis",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "71e343a8947e010616c3b9b9",
+        "question": "What are the similarities in lab test results and diagnoses among patients who experienced unplanned readmissions?",
+        "query": "null",
+        "template": "pattern_recognition",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "f6188ecdec3ae8bf72eca3d2",
+        "question": "Create a machine learning model to predict the time until the next medication refill for patients.",
+        "query": "null",
+        "template": "predictive_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "36227993d2694a4c09bfae7d",
+        "question": "Using patient data, build a clustering model to identify patient groups based on their diagnoses and treatments. Can you show the clusters?",
+        "query": "null",
+        "template": "clustering",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "2e4d99b0dba463a68fa15277",
+        "question": "Can you predict the likelihood of a patient being readmitted based on their last hospital visit data?",
+        "query": "null",
+        "template": "predictive_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "c4f0cff6d99c3b69c529315b",
+        "question": "What is the predicted cost for a patient's hospital stay based on their admission type, procedures, and length of stay?",
+        "query": "null",
+        "template": "predictive_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "d569f92de6dedaa0d8b75f07",
+        "question": "Build a graph-based representation of patient transfers across hospital departments and perform network analysis.",
+        "query": "null",
+        "template": "graph_analysis",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "5499a87660a05c7c9f7e04c2",
+        "question": "What is the expected outcome of combining two specific treatments for patients with multiple diagnoses?",
+        "query": "null",
+        "template": "predictive_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "f84fce83d434b694973e5008",
+        "question": "Can you perform sentiment analysis on the patient's clinical notes to determine emotional trends during their hospital stay?",
+        "query": "null",
+        "template": "sentiment_analysis",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "b8c89e311026d09393a0e802",
+        "question": "What is the education level of patient 10020740?",
+        "query": "null",
+        "template": "admission.education_level",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "89289224bcd533f37dd354f4",
+        "question": "Was ventilation used for patient 10027445 during their first ICU stay?",
+        "query": "null",
+        "template": "icustays.ventilation_flag",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "70918330e84e1256df16fc09",
+        "question": "What is the contact number of patient 10001725?",
+        "query": "null",
+        "template": "admission.contact_number",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "dacadfcf77b3e5e86720a269",
+        "question": "What religion does patient 10002495 practice?",
+        "query": "null",
+        "template": "admission.religion",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "60dcb0809f927f83c00e275d",
+        "question": "What is the blood type of patient 10002428?",
+        "query": "null",
+        "template": "patient.blood_type",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "67afac0400ba098f9d938dd5",
+        "question": "What time did patient 10016742 arrive at the hospital?",
+        "query": "null",
+        "template": "admission.arrival_time",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "8ea24c69c19f52df24f3ad27",
+        "question": "What is the ID of the transport team for patient 10002495?",
+        "query": "null",
+        "template": "transfers.transport_team_id",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "f44c04652498d4c871b71804",
+        "question": "What was the severity of illness score for patient 10029291 during their last ICU stay?",
+        "query": "null",
+        "template": "icustays.severity_of_illness_score",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "c9e0a9added296ddca9c33cc",
+        "question": "Which ICU team managed patient 10016742 during their last ICU stay?",
+        "query": "null",
+        "template": "icustays.icu_team_id",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "7c839b60c1eee4e0fd1c5faf",
+        "question": "How\u2019s your back feeling after lifting all those boxes last night?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "1964028dab3a55297692a620",
+        "question": "Are you on nights or days this week?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "ec20dc5061a3ce121db9c27f",
+        "question": "Have you heard about the hospital talent show next month?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "7901dc567d7d0ac9ab174991",
+        "question": "Do you ever get used to the sound of alarms going off constantly?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "9ac80f80ca18a7dec4545312",
+        "question": "Did the power flicker for you earlier, or was it just my floor?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "b0f0f7f0ee3777df5b6dac00",
+        "question": "How\u2019s the vending machine stock lately? Still just chips and soda?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "4ad2da8301c7ca03947d3a81",
+        "question": "Did you know today is National Nurses Day?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "280781be095b288ebbae6ac5",
+        "question": "Did you grab coffee before rounds today?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "6b4fbad11ac614eb6a8613ca",
+        "question": "Did you know Dr. Patel is running the marathon this weekend?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "437a67e92695da6417c66648",
+        "question": "Did you hear about the snowstorm coming this weekend?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "c9df3c67aaa486ad33eed1e0",
+        "question": "Train a deep learning model to predict mortality risk based on patient admission details and comorbidities. What are the key metrics for the model?",
+        "query": "null",
+        "template": "deep_learning_model_development",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "b5232d4a4e6f0ba54c0e8fcd",
+        "question": "How can we optimize the cost-effectiveness of prescribed treatments based on historical hospital expense data?",
+        "query": "null",
+        "template": "optimization_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "49c874cf49da8810b2fff5a8",
+        "question": "Apply a convolutional neural network (CNN) to classify microbiology test images for pathogen identification.",
+        "query": "null",
+        "template": "image_classification",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "4773450750f975bc1e9f1b7d",
+        "question": "Simulate scenarios to identify the optimal ICU admission strategy based on resource availability and patient severity scores.",
+        "query": "null",
+        "template": "simulation_and_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "5fe5dc4dd2b89f4b503fa135",
+        "question": "Can you derive feature embeddings for patient data using a neural network to enable more efficient similarity searches?",
+        "query": "null",
+        "template": "feature_embedding_generation",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "d73cf7158b206b167f5dbb0c",
+        "question": "Can you develop a recommendation system to suggest the most appropriate follow-up diagnostic tests for patients based on their ICD codes?",
+        "query": "null",
+        "template": "recommendation_systems",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "73402fa45c1d194850b95ea2",
+        "question": "Can you predict which patients might require ICU transfer based on their current lab values and vital signs?",
+        "query": "null",
+        "template": "predictive_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "a7c2700c9f6cb0bbc9bdfbc6",
+        "question": "Develop a model to predict the probability of a patient requiring a specific medication based on their lab results and previous prescriptions.",
+        "query": "null",
+        "template": "predictive_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "7e2e913f810f45835b7d64d2",
+        "question": "Generate synthetic patient records that match the statistical distribution of the existing database while preserving patient privacy.",
+        "query": "null",
+        "template": "synthetic_data_generation",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "f6d82dce6626fdb865071954",
+        "question": "When was the transfer request made for patient 10004235?",
+        "query": "null",
+        "template": "transfers.transfer_request_time",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "8c823ce4ac4885b95d20a983",
+        "question": "Did patient 10007795 have family visitation during their first ICU stay?",
+        "query": "null",
+        "template": "icustays.family_visitation_flag",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "117cf328786479d71017f8a5",
+        "question": "What special equipment was used for patient 10002495 in the first ICU stay?",
+        "query": "null",
+        "template": "icustays.special_equipment_used",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "e748b60101135729de8b7c6d",
+        "question": "Was family visitation allowed for patient 10020740 in their first ICU stay?",
+        "query": "null",
+        "template": "icustays.family_visitation_flag",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "004d0332ca071dfd0a44e215",
+        "question": "What was the source room for patient 10020740's first transfer?",
+        "query": "null",
+        "template": "transfers.source_room",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "76141975ce3bbba65d1941f5",
+        "question": "What dietary restrictions were set for patient 10027445 in their last ICU stay?",
+        "query": "null",
+        "template": "icustays.dietary_status",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "7dcf563bcdff90d62cbd1bb2",
+        "question": "What time was the transfer request for patient 10002428 made?",
+        "query": "null",
+        "template": "transfers.transfer_request_time",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "d655946e79d86922efce7082",
+        "question": "Who was the requesting provider for patient 10020740's last transfer?",
+        "query": "null",
+        "template": "transfers.requesting_provider_id",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "3504b1936c4b178f7bba8e07",
+        "question": "What was the reason for the transfer of patient 10020740?",
+        "query": "null",
+        "template": "transfers.transfer_reason",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "b8765af221aae09e2964db22",
+        "question": "What is the mobile number of patient 10026354?",
+        "query": "null",
+        "template": "What is the phone number of patient {patient_id}?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "887f3407d9f488730d133080",
+        "question": "Can you list the single rooms that are vacant now?",
+        "query": "null",
+        "template": "What are the single rooms that are available now?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "3738efbcdee160f2c724f6a7",
+        "question": "What is the residential address for patient 10038999?",
+        "query": "null",
+        "template": "What is the address of patient {patient_id}?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "b1c8726cc7b688b572f8223c",
+        "question": "What\u2019s the address recorded for patient 10007818?",
+        "query": "null",
+        "template": "What is the address of patient {patient_id}?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "ff8b91a8d9ed0e8a2999a387",
+        "question": "Has patient 10005348 undergone any genetic testing?",
+        "query": "null",
+        "template": "Is there a genetic test that patient {patient_id} received?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "f4c59b6fe8dc43b14614a282",
+        "question": "Is patient 10019385 going to have another immunology (cmv) test?",
+        "query": "null",
+        "template": "Will patient {patient_id} receive any additional {culture_name} test?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "a7105ad2d76bcb33799ec2e2",
+        "question": "Are there any single rooms available at the moment?",
+        "query": "null",
+        "template": "What are the single rooms that are available now?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "22b8b55de59dd28a51c600fe",
+        "question": "Is there a procedure scheduled for patient 10037975 today?",
+        "query": "null",
+        "template": "Does patient {patient_id} have any procedure appointment today?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "d042ad12e22bde39b941be55",
+        "question": "What was the outcome of the last COVID-19 test for patient 10019568?",
+        "query": "null",
+        "template": "What is the result of patient {patient_id}'s last COVID-19 test?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "f4c631eb359383fe48eba499",
+        "question": "What are the requirements in terms of documents for hospital discharge?",
+        "query": "null",
+        "template": "What are the documents required for hospital discharge?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "975d04d2fea8336381bd3ce0",
+        "question": "What was the name of the diagnosis for patient 10039997 in other departments?",
+        "query": "null",
+        "template": "Tell me the name of the diagnosis that patient {patient_id} received in the other department.",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "5e987a95d162a29838b7a6a4",
+        "question": "Did patient 10007795 sign the consent form for mammography?",
+        "query": "null",
+        "template": "Has patient {patient_id} completed a {radiology_name} agreement?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "505e9b3bfd2b4954f55dd6fa",
+        "question": "Can you provide the prescriptions for patient 10039708 in other departments?",
+        "query": "null",
+        "template": "Tell me all the prescriptions that patient {patient_id} received in the other department.",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "e9e5ce2906cd2aa417e92139",
+        "question": "Is the X-ray result for 10035185 available?",
+        "query": "null",
+        "template": "Is the X-ray result of {patient_id} ready?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "c1418df7c2cb39339fae8527",
+        "question": "Is patient 10006580 scheduled for an appointment in another department?",
+        "query": "null",
+        "template": "Does patient {patient_id} have an appointment in other department?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "87269f9bdc53bdc9a9f5d008",
+        "question": "How did patient 10022880's last COVID-19 test turn out?",
+        "query": "null",
+        "template": "What is the result of patient {patient_id}'s last COVID-19 test?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "d3de05b69ec0e228037c284c",
+        "question": "When is the upcoming ultrasound for patient 10015272?",
+        "query": "null",
+        "template": "When is patient {patient_id}'s next {radiology_test}?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "e83ca3c9707b79f99cd752bd",
+        "question": "Can you share the phone number of patient 10005817?",
+        "query": "null",
+        "template": "What is the phone number of patient {patient_id}?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "5ad67d46693fdfadabc140b3",
+        "question": "Is Dr. Emily Johnson scheduled for outpatient appointments today?",
+        "query": "null",
+        "template": "What is Dr. {doctor_name}'s outpatient schedule today?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "0b43cd62d1d0896813c51ccf",
+        "question": "What was the total time of the other repair and plastic operations on bronchus for patient 10009035?",
+        "query": "null",
+        "template": "How long did {procedure_name} take for patient {patient_id}?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "85c183d1b5868830d271a28c",
+        "question": "Who was the doctor patient 10004733 consulted during their last visit to the neurology department?",
+        "query": "null",
+        "template": "Which doctor did patient {patient_id} see when he or she last visited the {hospital_department} department?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "6bc6406f7a2c69c269c6a0a7",
+        "question": "Where can patient 10038999 be admitted at this moment?",
+        "query": "null",
+        "template": "What is the ward ID that patient {patient_id} can be admitted now?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "a488cd29f4c6b88009cb0977",
+        "question": "What are the conditions for reimbursing excision of left main bronchus, via natural or artificial opening endoscopic?",
+        "query": "null",
+        "template": "What is the reimbursement standard for {procedure_name}?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "mimic_iv"
+    }
+]

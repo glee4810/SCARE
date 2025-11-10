@@ -1,0 +1,15 @@
+# Input
+Database Schema:
+{database_schema}
+
+Question:
+{question}
+
+Evidence:
+{evidence}
+
+Current SQL Query:
+{sql}
+
+Execution Result:
+{exec}

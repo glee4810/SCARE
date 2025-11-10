@@ -1,0 +1,7 @@
+All previous SQL queries were found to be problematic. Based on the feedback, determine once again whether the question is answerable, ambiguous, or unanswerable. If it is answerable, correct the SQL.
+
+Predicted SQL:
+{sql}
+
+Execution Result:
+{exec}

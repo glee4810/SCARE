@@ -1,0 +1,506 @@
+[
+    {
+        "id": "5efc3957911be03ca755d658",
+        "question": "Any infection?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "a5de3545133fcd5ac4bf09da",
+        "question": "Therapy agreement?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "6fbf5e6bf79824fdd26df7c0",
+        "question": "Vital signs?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "1e63bed4a3e5ba095d650c9f",
+        "question": "Disease stage?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "86e2ed1a7ad32c22a82cd7ed",
+        "question": "Metastasis?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "e3d3df9d78fb61018941238a",
+        "question": "Nausea?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "0e3d714c883e1ac1dd8c894d",
+        "question": "Antibiotics?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "e8b2c5b3a5d32b70d59bfbe8",
+        "question": "Platelets?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "0aeb31c7ca2febb1dcaf5484",
+        "question": "Oxygen levels?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "3db8fa2c635e0dad6aaaf561",
+        "question": "What is the minimum total hospital cost that seems reasonable when it includes a cardiac sampling procedure?",
+        "query": "null",
+        "template": "reasonable",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "3412ee7fd7cbef598725e4ca",
+        "question": "Since 04/2100, have any common microbiology tests been conducted for patient 10039831?",
+        "query": "null",
+        "template": "common",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "ad1bbc25f2370fc2a6f30dde",
+        "question": "When was the last time patient 10008454's mean blood pressure was lower than a typical value this month?",
+        "query": "null",
+        "template": "typical",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "e06845b76582070b1a718cb7",
+        "question": "Tell me the number of patients who stayed in medicine for a long period since 2100.",
+        "query": "null",
+        "template": "long",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "218db3ec7c211d4c78c13121",
+        "question": "What is the total dosage of an uncommon medication prescribed to patient 10020944 since 2100?",
+        "query": "null",
+        "template": "uncommon",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "5713f2eb8a9d2ee573f848c9",
+        "question": "What are the newly prescribed drugs for patient 10004733 today with enough relevance compared to those prescribed yesterday?",
+        "query": "null",
+        "template": "enough",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "75891765065d3d131c0053f4",
+        "question": "Which test result showed a higher value than expected for patient 10038999 in 2100?",
+        "query": "null",
+        "template": "expected",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "6542101dff3678a9581d5093",
+        "question": "On their current hospital visit, how many days have passed since the first time patient 10021487 was prescribed a potentially harmful medication?",
+        "query": "null",
+        "template": "potentially harmful",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "3f8d37361b9518b85b58060f",
+        "question": "Which are the top three most frequent procedures patients had within a significant period after being diagnosed with personal history of malignant neoplasm of large intestine since 1 year ago?",
+        "query": "null",
+        "template": "significant",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "e88cc7cd6e1379781dadf241",
+        "question": "How many times did that patient come to the hospital since 1 year ago?",
+        "query": "null",
+        "template": "that",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "d89c945cc9d9740d84cd5f11",
+        "question": "What was the output of patient 10027602 for the last time on this?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "26a3828e6101f51229140f35",
+        "question": "Tell me the first medication that was prescribed to patient 10021487 since this period.",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "c664537250210f397c90a64f",
+        "question": "How many hours has it been since the prescription of this medicine during the last hospital stay of patient 10004733?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "d0fa736288d10673b065f08c",
+        "question": "What was the organism's name found in their last peritoneal fluid microbiology test since 09/2100?",
+        "query": "null",
+        "template": "their",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "d5052872293d65a00a91ea6b",
+        "question": "Which are the four top specimens that were tested for this patient?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "390c0dc297043c1975f43c31",
+        "question": "Get me the top three most frequent medications that patients were prescribed with in the same month after being diagnosed with this condition.",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "f38a69127a45294791b4eb04",
+        "question": "What percentile is the value of 13.0 in anion gap among patients of the same age as this patient on the first hospital encounter?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "d1d98bce9366b8475692a737",
+        "question": "In what ways can ciprofloxacin 0.3% ophth soln be ingested by them?",
+        "query": "null",
+        "template": "them",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "c44cb3343d65c60a993785c3",
+        "question": "What's the total of avapro prescriptions in that year?",
+        "query": "null",
+        "template": "that",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "66c5b3af87f0f5612572243e",
+        "question": "Biopsy?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "3ce5383973f12fc31584375a",
+        "question": "Allergies?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "e3a65e2f88c19e5320576058",
+        "question": "Medications?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "e136196641463b4e25f0328a",
+        "question": "ECG?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "f83590d4e744f0eb80eecdbb",
+        "question": "COVID?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "0adc8edbc340ff2646702e96",
+        "question": "Bilirubin?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "a0388532b5ea01e28002ad8a",
+        "question": "Headache?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "89cdf9554d3ef8f361cd73cc",
+        "question": "CT scan?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "7210d2395296d12a57cf44ed",
+        "question": "AST?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "92a86f02ea61f55732d9521f",
+        "question": "What is the minimum total hospital cost to include a drug called nicardipine iv for a common condition since 2100?",
+        "query": "null",
+        "template": "common",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "9c77b95179f8e6bf4f381ef8",
+        "question": "What is the total number of patients who were discharged in a timely manner last year?",
+        "query": "null",
+        "template": "timely",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "b4c1b8d15822060014e5cc2b",
+        "question": "What was the most common medication that patient 10012552 was prescribed after a major procedure in 04/this year?",
+        "query": "null",
+        "template": "major",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "4cecce5e6ce3913424cc4814",
+        "question": "How many patients were given a high-risk medication during the last year?",
+        "query": "null",
+        "template": "high-risk",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "c63d2bc2da140c972d77dd2c",
+        "question": "What are the most frequent diagnoses for patients who were discharged to a common location?",
+        "query": "null",
+        "template": "common",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "ab3d304d403c6e03efdc4353",
+        "question": "What are the most common diagnoses among patients with enough follow-up records since 2100?",
+        "query": "null",
+        "template": "enough",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "099d99dc0db7202a790a64b8",
+        "question": "How many days have passed since the first uncommon event for patient 10016810 during this hospital visit?",
+        "query": "null",
+        "template": "uncommon",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "e1da2b5038cf42e5ba8f03d4",
+        "question": "Could you provide me with the hospital admission time for patient 10016742 for a significant event since 2100?",
+        "query": "null",
+        "template": "significant",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "fc4d255a0b2a755ba6d5e72e",
+        "question": "When was the last time patient 10019777 underwent a procedure that took a long time?",
+        "query": "null",
+        "template": "long",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "6afd439ef50cc73e2089c75d",
+        "question": "What are the five most common diagnoses of people in their 60s or above during this time?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "c2fc94f684b29d59b6d68b28",
+        "question": "What are the most commonly prescribed drugs given to them twice?",
+        "query": "null",
+        "template": "them",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "bfb554ba2b5b6f1a173bbd3c",
+        "question": "What was the last time that patient 10003046 was discharged from this in 2100?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "717f5bfffcb71b8aa36b2cc7",
+        "question": "Can you tell me the organism found in patient 10021487\u2019s last test from there?",
+        "query": "null",
+        "template": "there",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "f96ba3a8cd2c3453f88a8098",
+        "question": "How many days was patient 10019172's last stay in the ICU from that hospital encounter?",
+        "query": "null",
+        "template": "that",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "3a5a1300116d7c42f280cb1c",
+        "question": "What was the name of the procedure that followed that diagnosis?",
+        "query": "null",
+        "template": "that",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "6d3a1d3cf9309c53927d0b9b",
+        "question": "When did that patient have their first input on last month/22?",
+        "query": "null",
+        "template": "that",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "7ec2a42071bea12ab8cb8244",
+        "question": "Since 08/11/2100, when was the last input time of their hospital visit?",
+        "query": "null",
+        "template": "their",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "61d194dc44313aff3576f045",
+        "question": "What new drugs are prescribed for this patient today compared to yesterday?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    },
+    {
+        "id": "fd5eaf8a2d9fbfc1a41b56c4",
+        "question": "What was the organism found in the last microbiology test done on that patient's urine since 10/2100?",
+        "query": "null",
+        "template": "that",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimicsql"
+    }
+]

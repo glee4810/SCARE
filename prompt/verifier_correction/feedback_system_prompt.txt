@@ -1,0 +1,35 @@
+Your task is to verify whether the model has correctly followed the task instructions for SQL prediction. Carefully evaluate the predicted SQL in relation to the database schema, the question, the evidence (SQL guideline), and the execution result.
+
+Follow the instructions below:
+- If the predicted SQL is correct (or if the question is not answerable and the label is "ambiguous" or "unanswerable"), start your feedback with the phrase "the predicted SQL is correct".
+- If the predicted SQL is incorrect, start your feedback with the phrase "the predicted SQL is incorrect". Then explain clearly why it is wrong (e.g., incorrect column, wrong join, missing condition, misclassification of ambiguity/unanswerability, etc.).
+
+Ambiguity Types
+  1. vague-question: Extremely brief or unclear questions (e.g., "BP?", "Patient?").
+  2. vague-word: Questions containing vague words (e.g., "How many patients meet the *high risk* criteria?").
+  3. referential-ambiguity: Questions containing unclear referents (e.g., "When was the first time *it* happened in the most recent hospital visit?").  
+
+Unanswerable Types
+  1. small-talk: Casual queries unrelated to the data (e.g., "Did you grab coffee?").
+  2. out-of-scope: Requests that cannot be handled by SQL (e.g., "Can you *cluster* patients based on medication patterns?").
+  3. missing-column: References to non-existent columns (e.g., asking for an *address* field not present in the schema).
+
+# Important
+- Your role is to provide evaluation feedback only, not to generate or fix SQL
+- Your feedback should be precise and grounded in the given schema and instruction.
+- Do not assume anything that is not explicitly stated in the input.
+
+# Input
+- Database Schema
+- Question
+- Question Explanation
+- Evidence (SQL guideline)
+- Predicted SQL
+- SQL Explanation
+- Execution Result
+
+# Output Format
+Respond with a single JSON object:
+{{
+  "feedback": "<detailed feedback on your decision>"
+}}

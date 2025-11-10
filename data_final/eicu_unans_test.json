@@ -1,0 +1,713 @@
+[
+    {
+        "id": "14a0a61f3df04b781e97d753",
+        "question": "Have you tried the cafeteria\u2019s new salad bar yet?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "e70b73654dfc0e77d909b739",
+        "question": "Do you ever feel like your stethoscope weighs a ton by the end of the day?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "f630833a7d44835791037ecd",
+        "question": "Have you met the new janitor yet? They\u2019re really nice.",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "7ff9e2f9868e2fae8ae85bf9",
+        "question": "How\u2019s the new resident doing in the ICU?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "e0aca520141fe0f6ef98cfb6",
+        "question": "What\u2019s the most surprising thing you\u2019ve learned on the job?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "6d141b225ac39a4fab8b1414",
+        "question": "What\u2019s your favorite spot to grab lunch near the hospital?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "363373234c9e7f8615c3edfb",
+        "question": "How long do you think the renovation on 3A will take?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "f57cb3b077ea7779f46d35e4",
+        "question": "What\u2019s the one thing you wish the hospital cafeteria would serve?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "eded514f26b7cab105c49331",
+        "question": "Do you think they\u2019ll ever fix the squeaky elevator?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "5d52f319de5edaee265627c7",
+        "question": "Generate synthetic data for patient procedures to improve machine learning model training.",
+        "query": "null",
+        "template": "synthetic_data_generation",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "68f071a85e17fa305823a446",
+        "question": "Can you recommend preventive care measures for patients likely to develop diabetes based on their lab test trends?",
+        "query": "null",
+        "template": "recommendation_systems",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "5d0f8f5829262ab4203ac76b",
+        "question": "What are the patterns in drug administration times for patients who developed severe side effects?",
+        "query": "null",
+        "template": "pattern_recognition",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "db328043997a8896cf1588af",
+        "question": "Train a generative adversarial network (GAN) to synthesize plausible lab test sequences for patient simulations.",
+        "query": "null",
+        "template": "deep_learning_model_development",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "3318b0ae08be42c6c07f920c",
+        "question": "What is the predictive model for determining the likelihood of a patient being readmitted to the ICU based on their lab test results and diagnoses?",
+        "query": "null",
+        "template": "predictive_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "a87dc1e728d6d189f9c7a09f",
+        "question": "Simulate how hospital resource needs (e.g., ICU beds, ventilators) will change based on projected patient admission trends and demographics.",
+        "query": "null",
+        "template": "simulation_and_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "fab8cb514a02778cd2ae07b3",
+        "question": "What unsupervised techniques can identify anomalies in lab test results for early detection of errors or unusual patient conditions?",
+        "query": "null",
+        "template": "anomaly_detection",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "52177e4e902d3cbb36765451",
+        "question": "Can you identify hidden correlations between lab test values and patient outcomes using correlation analysis?",
+        "query": "null",
+        "template": "statistical_analysis",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "3235ec234ddc5d923e46627b",
+        "question": "Can you identify subgroups of patients who responded well to a specific treatment using clustering?",
+        "query": "null",
+        "template": "clustering",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "f8918af7ec74ee33faa54799",
+        "question": "Can you analyze trends in patient admissions over the last five years to predict the busiest month for hospital admissions next year?",
+        "query": "null",
+        "template": "forecasting",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "187d60680e572f64582327ec",
+        "question": "What is the education level of patient 10001217?",
+        "query": "null",
+        "template": "admission.education_level",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "ab9b92d0424909314a32569c",
+        "question": "Which department admitted patient 10004235?",
+        "query": "null",
+        "template": "admission.admit_department",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "2fed80843e0ed27f69092b50",
+        "question": "Who is the emergency contact for patient 10001217?",
+        "query": "null",
+        "template": "admission.emergency_contact",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "027b514247ebd6d2e7fefbfa",
+        "question": "Did patient 10020740 have an infection flagged during their last ICU stay?",
+        "query": "null",
+        "template": "icustays.infection_flag",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "e62d76e5699ee2397842630a",
+        "question": "What mode of transport was used for patient 10007795's first transfer?",
+        "query": "null",
+        "template": "transfers.transfer_mode",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "f5df3582a561e49c9a432537",
+        "question": "What is the address of patient 10000032?",
+        "query": "null",
+        "template": "admission.address",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "745b6b9f12e26ade3e27b2f4",
+        "question": "Was patient 10002428 flagged for an infection during their first ICU stay?",
+        "query": "null",
+        "template": "icustays.infection_flag",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "695a300125bc09336996d53b",
+        "question": "Which department admitted patient 10000032?",
+        "query": "null",
+        "template": "admission.admit_department",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "dfb36ae3b7b9e49f06c1ce9b",
+        "question": "Which ICU bed number was assigned to patient 10029291?",
+        "query": "null",
+        "template": "icustays.icu_bed_number",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "be38dbd24d23d70d69d14bb2",
+        "question": "Do you think the hospital should add more parking spots?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "f5738c326efa933053ee703f",
+        "question": "How\u2019s the staffing situation on your floor today?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "2175ccc0eeed3e07534c1835",
+        "question": "What\u2019s the strangest thing you\u2019ve ever found in a supply closet?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "a05fcad8dbc08d5e48f4cbec",
+        "question": "I heard Dr. Lee is retiring next month\u2014can you believe it?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "ac2ebb447bb254327ad7d33a",
+        "question": "How many steps do you think you walk during a 12-hour shift?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "c230176da8e788b86204378a",
+        "question": "What\u2019s the best hack for getting blood draws on tricky veins?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "ab1522ee1ac72b2f7925562e",
+        "question": "Did you see the sunrise during the shift change this morning? It was gorgeous!",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "8c595617bd35c8a376e4934a",
+        "question": "What\u2019s the best part about working the night shift for you?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "5e4819c9571226abac56bc68",
+        "question": "What\u2019s your trick for memorizing so many patient details?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "small-talk",
+        "db_id": "eicu"
+    },
+    {
+        "id": "37ec7c553042df4ba6bd5b0a",
+        "question": "What is the impact of different admission locations on patient outcomes as determined by causal inference methods?",
+        "query": "null",
+        "template": "causal_inference",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "1a34911c9b05aa97ecb3bc6d",
+        "question": "Predict the likelihood of a patient developing sepsis based on their ICU stay data.",
+        "query": "null",
+        "template": "predictive_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "4d4fe14ee6bc232f2c213eb5",
+        "question": "What are the latent topics derived from patient microbiology test descriptions using topic modeling?",
+        "query": "null",
+        "template": "topic_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "cefdd16753970249f447bad5",
+        "question": "What machine learning model could best predict the likelihood of a patient developing a hospital-acquired infection based on the lab tests and procedures recorded in their current hospital visit?",
+        "query": "null",
+        "template": "predictive_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "a3a4dc6691974ff9017280d3",
+        "question": "Perform sentiment analysis on patient feedback notes to assess satisfaction levels with hospital care.",
+        "query": "null",
+        "template": "sentiment_analysis",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "00ce9e02a1995cebbc5a580d",
+        "question": "What factors contribute most to the variation in hospital stay durations?",
+        "query": "null",
+        "template": "feature_importance_analysis",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "36594f540c7aa1ee1d02e806",
+        "question": "Could you predict the onset of infections in ICU patients using microbiology and lab event data?",
+        "query": "null",
+        "template": "predictive_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "9eb11ba31355b063cf76536d",
+        "question": "Which patients are at the highest risk of developing multiple chronic conditions based on their historical data?",
+        "query": "null",
+        "template": "risk_stratification",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "ebe4fee5559a6f28ec9cb452",
+        "question": "Perform dimensionality reduction on patient lab test data to visualize key patterns in 2D space.",
+        "query": "null",
+        "template": "dimensionality_reduction",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "9fff00e2af47d2ff354a6d71",
+        "question": "Design a predictive model to estimate patient costs for hospital stays based on previous admissions and diagnoses.",
+        "query": "null",
+        "template": "predictive_modeling",
+        "val_dict": {},
+        "note": "out-of-scope",
+        "db_id": "eicu"
+    },
+    {
+        "id": "7ad93d85e4bc57598db484f4",
+        "question": "What is the religion of patient 10020740?",
+        "query": "null",
+        "template": "admission.religion",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "5e4ca8f234b6b5f49907be15",
+        "question": "Was patient 10020740 in isolation during their first ICU stay?",
+        "query": "null",
+        "template": "icustays.isolation_status",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "230ec533c8825358860762c9",
+        "question": "What time did patient 10007795 arrive at the hospital?",
+        "query": "null",
+        "template": "admission.arrival_time",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "a07bd325455a29a2c62a3343",
+        "question": "What notes were recorded during the transfer of patient 10020740?",
+        "query": "null",
+        "template": "transfers.transfer_notes",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "45a61f5f8aabc7dc1812c473",
+        "question": "What time was the transfer of patient 10002495 approved?",
+        "query": "null",
+        "template": "transfers.transfer_approval_time",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "44ae78ae25f56c88b7ef7c03",
+        "question": "Which ICU team managed patient 10020740?",
+        "query": "null",
+        "template": "icustays.icu_team_id",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "1be79b7dea663754cfe79e9b",
+        "question": "What is the severity of illness score for patient 10007795's ICU last stay?",
+        "query": "null",
+        "template": "icustays.severity_of_illness_score",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "b04386b699565d3f0d10f22c",
+        "question": "What was the mode of transfer for patient 10014729?",
+        "query": "null",
+        "template": "transfers.transfer_mode",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "84d53ed27d9f0ba7bc63685d",
+        "question": "Does patient 10004235 require a follow-up after admission?",
+        "query": "null",
+        "template": "admission.followup_required",
+        "val_dict": {},
+        "note": "missing-column",
+        "db_id": "eicu"
+    },
+    {
+        "id": "5366c6bab2622aa32e9ead5e",
+        "question": "When is patient 10029291 scheduled for the excision of right main bronchus, via natural or artificial opening endoscopic, diagnostic procedure?",
+        "query": "null",
+        "template": "When is patient {patient_id} going into the {procedure_name} procedure?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "299a4d2f40925f7aadee8291",
+        "question": "At what time does Dr. Olivia Martinez have rounds and procedures?",
+        "query": "null",
+        "template": "When are the Dr. {doctor_name}'s rounds and procedures?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "576b98f461b6fab1a272bdb8",
+        "question": "Can you check if patient 10022281 has an appointment in a different department?",
+        "query": "null",
+        "template": "Does patient {patient_id} have an appointment in other department?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "d5e42f16bc12eb60af379174",
+        "question": "Can you provide the test names that patient 10007818 underwent in other departments?",
+        "query": "null",
+        "template": "Tell me all the tests that patient {patient_id} took in other department.",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "11e0773754ae7594d56ce9e9",
+        "question": "What is the count of patients who asked for a prescription copy while hospitalized?",
+        "query": "null",
+        "template": "Count the number of patient who requested a copy of their prescription during their hospital stay.",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "5baa0fb01b368a097a442332",
+        "question": "What is the end date of patient 10026354's quarantine?",
+        "query": "null",
+        "template": "When does patient {patient_id}'s quarantine end?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "538f547260bdfd494c899e97",
+        "question": "How much delay is expected on average for appointments in pediatrics?",
+        "query": "null",
+        "template": "What is the average time of delay of appointments in the {hospital_department} department?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "18a09c4354748f03662e51c9",
+        "question": "Which test is patient 10019917 scheduled to undergo today?",
+        "query": "null",
+        "template": "What test is patient {patient_id} going to have today?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "ec5aa58486fe183c646f37cc",
+        "question": "Can you confirm if 10007795's X-ray result is ready?",
+        "query": "null",
+        "template": "Is the X-ray result of {patient_id} ready?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "5ff0a6113f2a8f426ef5513b",
+        "question": "How many of the operating rooms are accessible right now?",
+        "query": "null",
+        "template": "How many operating rooms are available now?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "1d845172508e509252e55b4d",
+        "question": "Will an extra peritoneal fluid test be performed on patient 10025463?",
+        "query": "null",
+        "template": "Will patient {patient_id} receive any additional {culture_name} test?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "6f55ac94c458fa94b5d4f169",
+        "question": "Can you count how many patients requested their prescription copies during hospitalization?",
+        "query": "null",
+        "template": "Count the number of patient who requested a copy of their prescription during their hospital stay.",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "6dc4eee1228e3b613c4bb930",
+        "question": "Is patient 10031404's mammography agreement finished?",
+        "query": "null",
+        "template": "Has patient {patient_id} completed a {radiology_name} agreement?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "f180b549f4ca82a1129332a5",
+        "question": "Is patient 10018328 scheduled for any procedures today?",
+        "query": "null",
+        "template": "Does patient {patient_id} have any procedure appointment today?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "a3271ea152fc82c397003391",
+        "question": "Has patient 10014729 traveled abroad before?",
+        "query": "null",
+        "template": "Does patient {patient_id} have overseas travel history?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "28d48a30b61b7f66436711da",
+        "question": "When is patient 10005909 scheduled for their next MRI?",
+        "query": "null",
+        "template": "When is patient {patient_id}'s next {radiology_test}?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "e5b9d778235575292cecf563",
+        "question": "What are the medications prescribed to patient 10038992 in other departments?",
+        "query": "null",
+        "template": "Tell me all the prescriptions that patient {patient_id} received in the other department.",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "e9888cc9d776dd3d58f17e9a",
+        "question": "When does the isolation for patient 10018845 conclude?",
+        "query": "null",
+        "template": "When does patient {patient_id}'s quarantine end?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "3b007b8a4c8034eaae8e7aba",
+        "question": "When does patient 10015931 have their next hospital visit?",
+        "query": "null",
+        "template": "When is the next earliest hospital visit of patient {patient_id}?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "b9e5966a6823d54f8bf45d2b",
+        "question": "Can you provide the results from MRI for patient 10019917?",
+        "query": "null",
+        "template": "What are the results of patient {patient_id}'s {radiology_test}",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "fa87948d1d1863c86cb9bf86",
+        "question": "Is there a test booked for patient 10008454 today?",
+        "query": "null",
+        "template": "Does patient {patient_id} have an appointment for any test today?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "69aff3fd5f525f1c8d4db5fb",
+        "question": "What side effects did patient 10008454 have during other computer assisted surgery?",
+        "query": "null",
+        "template": "What are the side effects that patient {patient_id} experienced during {procedure_name}?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    },
+    {
+        "id": "91e7e7bd27ffed240ac83406",
+        "question": "What are the conditions for reimbursing ciprofloxacin iv?",
+        "query": "null",
+        "template": "What is the reimbursement standard for {drug_name}?",
+        "val_dict": {},
+        "note": "infeasible-faq",
+        "db_id": "eicu"
+    }
+]

@@ -1,0 +1,30 @@
+Your task is to determine whether the predicted SQL is correct, or whether the question is intrinsically ambiguous or unanswerable for SQL generation, given the question and database schema. Follow the instructions below:
+
+- If the question is **answerable** and the SQL is **correct**, output the same SQL.
+- If the question is **answerable** but the SQL is **incorrect**, output the fixed SQL.
+- If the question is **ambiguous** (requires clarification before SQL translation), output `"ambiguous"`. Ambiguity types include:
+  1. vague-question: Extremely brief or unclear questions (e.g., "BP?", "Patient?").
+  2. vague-word: Questions containing vague words (e.g., "How many patients meet the *high risk* criteria?").
+  3. referential-ambiguity: Questions containing unclear referents (e.g., "When was the first time *it* happened in the most recent hospital visit?").
+- If the question is **unanswerable** (cannot be converted into valid SQL), output `"unanswerable"`. Unanswerable types include:
+  1. small-talk: Casual queries unrelated to the data (e.g., "Did you grab coffee?").
+  2. out-of-scope: Requests that cannot be handled by SQL (e.g., "Can you *cluster* patients based on medication patterns?").
+  3. missing-column: References to non-existent columns (e.g., asking for an *address* field not present in the schema).
+
+# Important
+- Do not assume anything that is not explicitly stated in the input.
+
+# Input
+- Database Schema
+- Question
+- Evidence (SQL guideline)
+- Predicted SQL
+- Execution Result
+- Question Type Prediction:
+
+# Output Format
+Respond with a single JSON object:
+{{
+  "reasoning": "<reasoning behind your decision>",
+  "answer": "<either the original SQL, fixed SQL, "ambiguous", or "unanswerable">"
+}}

@@ -1,0 +1,506 @@
+[
+    {
+        "id": "d107b42c731d85a312dedad0",
+        "question": "Weight?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "3a7a225961c280b5416b823f",
+        "question": "BMI?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "32fcfa4fccbb854d378fc2fc",
+        "question": "LDL?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "f4fa1e41b837dc8be754b09f",
+        "question": "Sputum?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "b11bbfbc295840e16efd30a4",
+        "question": "Pulse?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "03504aef765bd8480c3e6093",
+        "question": "Potassium?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "c9c0692d36ba881a564959f1",
+        "question": "Cough?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "2883a507c4c5925e40d1cf1b",
+        "question": "Height?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "02a7bb77ee9de5717e5599da",
+        "question": "Diet?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "96bae5c8a7d6ed6b73332480",
+        "question": "Tumor size?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "494c6b22b14f07aeee2b50b7",
+        "question": "Tell me the top five frequent specimens tested with a sufficient sample size since 2100.",
+        "query": "null",
+        "template": "sufficient",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "82a9c4c03561acb2045d10d0",
+        "question": "How many patients received procedures of a common category during their last hospital visit?",
+        "query": "null",
+        "template": "common",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "ea910eb3976f8e31b11196be",
+        "question": "How many patients were given excision of dental lesion of jaw more than usual this year?",
+        "query": "null",
+        "template": "more than usual",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "1a3a461887435e82a38b5a3e",
+        "question": "List the top five diagnoses that have the high enough 6-month mortality rate.",
+        "query": "null",
+        "template": "enough",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "ea5d940e3dc48f196ecfc451",
+        "question": "Which were the top three frequent specimens tested in sufficient hospital visits since 2100?",
+        "query": "null",
+        "template": "sufficient",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "ec4275de586a1113e894cce7",
+        "question": "What was the total minimum cost of hospitalization that involved a long ICU stay in 2100?",
+        "query": "null",
+        "template": "long",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "50a3a8bfdb9375e25d5ef502",
+        "question": "When was the first time patient 10020740 was measured with a heart rate higher than usual on 03/28/2100?",
+        "query": "null",
+        "template": "usual",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "a276c506d42380b31dc5690c",
+        "question": "How many patients were administered divalproex (delayed release) in enough doses since 2100?",
+        "query": "null",
+        "template": "enough",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "ecad34011846fc11e6c78a55",
+        "question": "Can you provide the list of the four most commonly ordered specimen tests in this lengthy timeframe?",
+        "query": "null",
+        "template": "lengthy",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "b3ef6a9379e2d03d4eb168b1",
+        "question": "How much glucagon was prescribed since 05/2100 for the last time to this patient?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "a5d5c8cdb8479dcc7f91035f",
+        "question": "Count the number of patients who underwent this in 2100.",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "748d6d6c62ac4ea502d04b1c",
+        "question": "Can you show the length in days of their last ICU stay?",
+        "query": "null",
+        "template": "their",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "e5ea85680e44f2b016b38566",
+        "question": "When did it last happen to patient 10039831?",
+        "query": "null",
+        "template": "it",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "789dafce6af7f818ab6f2bc4",
+        "question": "Count the number of times that arteriography of renal arteries was performed since that time.",
+        "query": "null",
+        "template": "that",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "2a13da4700f8f909f3a15c3c",
+        "question": "Give me the top five most commonly prescribed medications within 2 months to these patients aged 40s after they were diagnosed with these.",
+        "query": "null",
+        "template": "these",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "ff8ee477026c400791c68dc6",
+        "question": "How many patients in 2100 were diagnosed with cyst and pseudocyst of pancreas during the same month after this prescription?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "34d46ed9180cea5481330a93",
+        "question": "In the last hospital encounter was readi-cat 2 (barium sulfate 2% suspension), glipizide xl, or sodium chloride 0.9% prescribed for that patient?",
+        "query": "null",
+        "template": "that",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "cd71238d176540af6168ec30",
+        "question": "Could you list the three most common specimen tests carried out in this?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "be15046160151988a15ff458",
+        "question": "Lab results?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "03d3d39367bce8f39ddaa9fd",
+        "question": "Creatinine?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "404627d53a6c97eb5af4080a",
+        "question": "Albumin?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "7575118786265f431b5cb0ff",
+        "question": "ALT?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "322918421502c3d36a39e297",
+        "question": "X-ray?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "3d9984a996fd2c32a51325da",
+        "question": "Respiration?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "e2e8aadf89c251432cb6aa7f",
+        "question": "Symptoms?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "48d86cecbf6dba5a5e628bf5",
+        "question": "Hemoglobin?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "2cd602bae6467b9fadc01f62",
+        "question": "WBC count?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "44143829097806f54b40c7c8",
+        "question": "Dizziness?",
+        "query": "null",
+        "template": "-",
+        "val_dict": {},
+        "note": "vague-question",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "5e8121b86763ca504468674b",
+        "question": "How many current patients meet the high-risk criteria?",
+        "query": "null",
+        "template": "high-risk",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "80a43968c85b7235e80bbc35",
+        "question": "When was the first time patient 10007818 had the minimum noticeable tobramycin level?",
+        "query": "null",
+        "template": "noticeable",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "69cca6c562bec69e7743e9ed",
+        "question": "How many patients with more than usual visits received dilation of left common iliac vein with intraluminal device since 2100?",
+        "query": "null",
+        "template": "more than usual",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "be4b585d7f55ff78fb62ed43",
+        "question": "For patients who underwent percutaneous abdominal drainage this year, what were the top five most frequent procedures that followed in a similar timeframe?",
+        "query": "null",
+        "template": "similar",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "098f41a7384dec9cb441612b",
+        "question": "When was the last time patient 10021487 was measured for a respiratory rate that was more than usual?",
+        "query": "null",
+        "template": "more than usual",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "abd023e10839fc2adc0df003",
+        "question": "Tell me the 6-month survival rate of patients diagnosed with microscopic hematuria and given phytonadione under usual conditions.",
+        "query": "null",
+        "template": "usual",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "f6f45bde23c7e96ff428b0be",
+        "question": "Has patient 10007058 had a lab test this year with a significant result?",
+        "query": "null",
+        "template": "significant",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "87b7b31ce49428d60105dfa1",
+        "question": "Compared to yesterday, what are the new prescriptions for patient 10018081 today with more than usual significance?",
+        "query": "null",
+        "template": "more than usual",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "ff5455307a930feb2aa92e53",
+        "question": "Can you tell me which were the top five most frequently tested specimens within a reasonable timeframe in 2100?",
+        "query": "null",
+        "template": "reasonable timeframe",
+        "val_dict": {},
+        "note": "vague-word",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "8d598ae35b791419992802a8",
+        "question": "When was the last hospital discharge of this patient in that year?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "3d33b23f2ab91dfc8951e2ac",
+        "question": "How many hours has it been since their last chloride lab test during the current hospital visit?",
+        "query": "null",
+        "template": "their",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "13da75066180adb10b47ab03",
+        "question": "When did patient 10005817 have input for the first time since that day?",
+        "query": "null",
+        "template": "that",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "b7cf48c89585e00bc32514f1",
+        "question": "Has this medication been administered since 03/02/2100?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "26b95b61118e00014bc8ca02",
+        "question": "On their current hospital visit, how many hours have passed since their last diagnosis of acute vascular insufficiency of intestine?",
+        "query": "null",
+        "template": "their",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "123acfaf38ff0c980e3260a4",
+        "question": "Calculate the total number of patients who had a vitamin b12 lab test since this time.",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "c5ae8f7f89622b3f9a99dc59",
+        "question": "How much does their weight differ from the last value measured on the last hospital visit compared to the first value measured on the last hospital visit?",
+        "query": "null",
+        "template": "their",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "dcd0e118383c65291a807cf4",
+        "question": "When did patient 10003046 last have their maximum SaO2 during this hospital admission?",
+        "query": "null",
+        "template": "this",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    },
+    {
+        "id": "122bdd29020952f7ba0021ba",
+        "question": "Which are the four most common specimens tested since then?",
+        "query": "null",
+        "template": "then",
+        "val_dict": {},
+        "note": "ambiguous-reference",
+        "db_id": "mimic_iv"
+    }
+]
